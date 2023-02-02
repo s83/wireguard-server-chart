@@ -10,7 +10,7 @@ This simple Helm is a lightweight way to configure and run a Wireguard VPN serve
 
 Add the Repository to Helm:
 
-    helm repo add my-helm-charts https://s83.github.io/wireguard-server-chart/
+    helm repo add s83-wireguard-server https://s83.github.io/wireguard-server-chart/
 
 ## Usage notes
 * This chart uses the [linuxserver/wireguard](https://github.com/linuxserver/docker-wireguard) image. Thanks to the [LinuxServer.io](https://www.linuxserver.io) team for this awesome solution!
