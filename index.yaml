@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  wireguard-server:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-02T10:18:12.708694045+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 36675591e22bbf41a6929db48e0f4dbc8561dc77
+    name: wireguard
+    urls:
+    - https://github.com/s83/wireguard-server-chart/archive/refs/tags/1.0.0.tar.gz
+    version: 1.0.0
+generated: "2023-02-02T10:18:12.708694045+01:00"
