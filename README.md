@@ -6,8 +6,11 @@ This simple Helm is a lightweight way to configure and run a Wireguard VPN serve
 * Kubernetes
 * [Helm](https://helm.sh/docs/intro/install/) v3+
 
-## Installing
-TBD
+## Installing Charts from this Repository
+
+Add the Repository to Helm:
+
+    helm repo add my-helm-charts https://s83.github.io/wireguard-server-chart/
 
 ## Usage notes
 * This chart uses the [linuxserver/wireguard](https://github.com/linuxserver/docker-wireguard) image. Thanks to the [LinuxServer.io](https://www.linuxserver.io) team for this awesome solution!
